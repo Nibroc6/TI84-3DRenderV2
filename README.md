@@ -39,12 +39,21 @@ You will also have to change the code in LOADM. Add the following to this line:
 Disp "ID: NAME:","1   HI","[id - some number]   [Name of your model]"
 Then, add the following lines right before "If P":
 
+
 If A=[id that you put in earlier]
+
 Then
+
 	[first list]->L1
+	
 	[second list]->L2
+	
 	[third list]->L3
+	
 	[fourth list]->L4
+	
 	[fifth list]->L5
+	
 	[sixth]->L6
+	
 End
