@@ -36,7 +36,9 @@ To display a model with this engine, it needs to be in the following format:
 
 
 You will also have to change the code in LOADM. Add the following to this line:
-Disp "ID: NAME:","1   HI","[id - some number]   [Name of your model]"
+
+	Disp "ID: NAME:","1   HI","[id - some number]   [Name of your model]"
+	
 Then, add the following lines right before "If P":
 
 
