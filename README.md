@@ -22,17 +22,17 @@ To move the model, use the arrow keys. 7 and 9 control roll, 8 and 2 control pit
 To display a model with this engine, it needs to be in the following format:
 
 
-{Edge1 X1, Edge2 X1, ...} -> list
+	{Edge1 X1, Edge2 X1, ...} -> list
 
-{Edge1 Y1, Edge2 Y1, ...} -> list
+	{Edge1 Y1, Edge2 Y1, ...} -> list
 
-{Edge1 Z1, Edge2 Z1, ...} -> list
+	{Edge1 Z1, Edge2 Z1, ...} -> list
 
-{Edge1 X2, Edge2 X2, ...} -> list
+	{Edge1 X2, Edge2 X2, ...} -> list
 
-{Edge1 Y2, Edge2 Y2, ...} -> list
+	{Edge1 Y2, Edge2 Y2, ...} -> list
 
-{Edge1 Z2, Edge2 Z2, ...} -> list
+	{Edge1 Z2, Edge2 Z2, ...} -> list
 
 
 You will also have to change the code in LOADM. Add the following to this line:
@@ -40,20 +40,20 @@ Disp "ID: NAME:","1   HI","[id - some number]   [Name of your model]"
 Then, add the following lines right before "If P":
 
 
-If A=[id that you put in earlier]
+	If A=[id that you put in earlier]
 
-Then
+	Then
 
-	[first list]->L1
-	
-	[second list]->L2
-	
-	[third list]->L3
-	
-	[fourth list]->L4
-	
-	[fifth list]->L5
-	
-	[sixth]->L6
-	
-End
+		[first list]->L1
+
+		[second list]->L2
+
+		[third list]->L3
+
+		[fourth list]->L4
+
+		[fifth list]->L5
+
+		[sixth]->L6
+
+	End
