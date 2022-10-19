@@ -2,8 +2,6 @@
 A simple 3D wireframe render engine for the TI 84+
 
 
-# Instuctions
-
 # Installation
 To use this code, you will need either a TI 84 of some sort or a TI 84 simulator such as Wabbitemu (http://wabbitemu.org/)
 If you have a phisical TI 84, you will need the TI connect app and cord to send files to your calculator.
@@ -23,12 +21,19 @@ To move the model, use the arrow keys. 7 and 9 control roll, 8 and 2 control pit
 # Model Format
 To display a model with this engine, it needs to be in the following format:
 
+
 {Edge1 X1, Edge2 X1, ...} -> list
+
 {Edge1 Y1, Edge2 Y1, ...} -> list
+
 {Edge1 Z1, Edge2 Z1, ...} -> list
+
 {Edge1 X2, Edge2 X2, ...} -> list
+
 {Edge1 Y2, Edge2 Y2, ...} -> list
+
 {Edge1 Z2, Edge2 Z2, ...} -> list
+
 
 You will also have to change the code in LOADM. Add the following to this line:
 Disp "ID: NAME:","1   HI","[id - some number]   [Name of your model]"
